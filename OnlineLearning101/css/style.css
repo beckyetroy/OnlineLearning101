@@ -1,0 +1,170 @@
+body {
+	background-image:url(../images/background3.jpg);
+	background-color:#cc99ff;
+}
+
+.ui.container {
+	background-color: #f2f2f2;
+	margin-top: 0.25%;
+	width: 95%;
+}
+
+div>a{
+	background-color: #d9b3ff;
+	padding:2.5px;
+	font-size: 1.25em;
+}
+
+.ui.left.visible.vertical.menu {
+	background-color: #dd99ff;
+	padding:2.5px;
+	font-family: Verdana, sans-sarif;
+	font-size: 0.9em;
+}
+
+h2 {
+	font-weight: bold;
+	font-style: Verdana, sans-sarif;
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+h3 {
+	font-weight: bold;
+	font-style: Verdana, sans-sarif;
+	font-size:1.4em;
+}
+
+.general {
+	font-size: 1.5em;
+}
+
+.subgeneral, #listOfRefs {
+	font-size:1.25em;
+}
+
+#listOfRefs {
+	line-height: 150%;
+}
+
+.general, .subgeneral {
+	text-align: justify;	
+}
+
+.general, .subgeneral, #listOfRefs, h2, h3 {
+	padding: 0% 3%;
+}
+
+a {
+	color: #b366ff;
+}
+
+a:hover {
+	color: #9900e6;
+}
+
+a:active {
+	color: #7700b3;
+}
+
+.footer {
+	text-align:right;
+	padding: 1em;
+	color: #404040;
+}
+
+#disclaimer {
+	font-size: 1.75em;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+.ui.centered.image {
+	max-width: 33%;
+}
+
+#disclaimerButton {
+	font-size:1.4em;
+	padding: 0.5em;
+	float: right;
+	background-color: #dd99ff;
+}
+
+#disclaimerButton:hover {
+	background-color: #eeccff;
+}
+
+#DesktopFolders {
+	max-width: 70%;
+	border: 3px solid white;
+}
+
+#DesktopShortcuts {
+	border: 3px solid white;
+}
+
+.four.wide.column {
+	margin: auto;
+	max-width:50%;
+  border: 3px solid purple;
+  padding: 10px;
+  text-align: center;
+}
+
+.four.wide.column img {
+	max-width: 45%;
+}
+
+.apps {
+	border-radius: 25px;
+	max-width: 100%;
+	box-shadow: 5px 5px 8px purple, 10px 10px 8px grey;
+}
+
+.appLinks {
+	font-size: 0.9em;
+	width:110%;
+	display: inline-block;
+	margin-top: 2%;
+}
+
+.appImgs {
+max-width:50%;
+  padding: 10px;
+  text-align: left;
+}
+
+.appDesc {
+	max-width:50%;
+  padding: 10px;
+  text-align: left;
+  float:right;
+  margin-top: 5%;
+  font-size:1.15em;
+}
+
+ul.stayingConnectedTable>li {
+	list-style-position: inside;
+	text-align: center;
+	font-size: 1.3em;
+	padding: 0.3em;
+}
+
+ul.stayingConnectedTable {
+	padding:1em;
+	border:solid purple 3px;
+}
+
+.breakingUpTheDay, .leavingCollege, {
+	max-width: 75%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.settingUpWorkspace, .timeManagement, .stayingConnected, .lunchBreak {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	max-width: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px;
+}

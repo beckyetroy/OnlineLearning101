@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+  <title>Online Learning 101 - Organising your Desktop</title>
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/javascript.js"></script>
+
+</head>
+
+<body>
+
+<div class = "ui container">
+
+<header class = "ui segment">
+	<img src = "images/header3.jpg" alt="Setting up your Workspace" class="ui fluid image">
+</header>
+
+<main class = "ui padded stackable grid">
+
+<div class="ui left visible five wide column stackable vertical menu">
+	<a class = "item" href = "index.html">Home</a>
+	<a class = "item" href = "disclaimer.html"> Disclaimer Page</a>
+	<a class = "item" href = "settingUpWorkspace.html">Setting Up Your Workspace</a>
+	<a class = "active item" href = "organizingDesktop.html">Organising Your Desktop</a>
+	<a class = "item" href = "usefulAppsAndResources.html">Useful Apps and Resources</a>
+	<a class = "item" href = "timeManagement.html">Time Management</a>
+	<a class = "item" href = "stayingConnected.html">Staying Connected to Teachers and Classmates</a>
+	<a class = "item" href = "breakingUpTheDay.html">Getting Outside and Breaking Up The Day</a>
+	<a class = "item" href = "lunchBreak.html">Lunch Break Preparation</a>
+	<a class = "item" href = "leavingCollege.html">Leaving College Behind At The End Of The Day</a>
+	<a class = "item" href = "References.html">References</a>
+</div>
+
+<div class ="eleven wide column">
+	<h2> Organising your Desktop </h2></p>
+	<br>
+	<p class = "general">Carrying out your coursework online means that you're going to spend a lot, if not all, of your time looking at your laptop or PC desktop screen. Just like you would (or at least <em>should</em>!) organise your physical notes and work neatly into folders, binders, and refill pads, your online notes and work should be no different! To get the most of your online learning experience, you're going to need to organise all of your online work so that you can easily find and revise everything.
+	<br><br>
+	Here, we'll help you get started with organising your laptop or PC desktop (that main screen you see when you start up your computer) to help keep you on top of all your online work.
+	</p>
+
+	<p class = "subgeneral"><h3> Step 1: Organise your Files into Folders </h3></p>
+	<p class = "subgeneral"><img src = "images/DesktopFolders.jpg" alt = "Folder Structure" class = "ui centered image" id = "DesktopFolders"></p>
+	<br>
+	<p class = "subgeneral">
+	First and foremost, we would recommend grouping all of your work into folders on your desktop. To create a folder, <strong>left click on your screen while on your desktop and go to New > Folder</strong>, then enter your folder name. For Mac, choose <strong>File > New Folder</strong>.
+	<br><br>
+	When it comes to naming your folders, it's up to you whatever way you would like to group your notes. We would recommend grouping by <em> module</em>, like the example above, but it's whatever is easiest and accessible for you. You might decide to name folders by CAs, labs, etc.
+	<br><br>
+	Try to abbreviate where you can and avoid long folder names, as there is a limit on how many characters will show on your desktop. At the same time, only abbreviate where you know you will recognise the abbreviation later and not get mixed up!
+	<br><br>
+	Once you have your folders named and ready, you can start adding files and notes to them by simply selecting the files and dragging them into the desktop folder.
+	</p>
+	<p class = "subgeneral"><h3> Step 2: Create Shortcuts your Most Used Sites and Apps</h3></p>
+	<p class = "subgeneral"><img src = "images/DesktopShortcuts.jpg" alt = "Folder Structure" class = "ui centered image" id = "DesktopShortcuts"></p>
+	<br>
+	<p class = "subgeneral">
+	This step will save you some time. There's always going to be sites (like your college site) or apps (like Zoom or Teams etc.) that you will visit daily. Creating shortcuts for these sites on your desktop gives you quick and easy access.
+	<br><br>
+	You can do this by <strong>left clicking on your screen while on your desktop and go to New > Shortcut</strong>. From there, you can hit <strong>Browse</strong> to find an application on your computer <em>or</em> enter the <strong>URL</strong> of to the website you want to add (e.g. https://moodle.wit.ie). For Mac, simply click and drag the URL address or application onto the desktop.
+	</p>
+	<p class = "subgeneral"><h3> Step 3: Keep your Desktop Tidy</h3></p>
+	<p class = "subgeneral">The key to a tidy desktop is not to let it get too cluttered. Only add folders and shortcuts you really need, and don't be afraid to delete a few if you find you're not using them.
+	<br><br>
+	How you place your shortcuts and folders is important too. Try to keep some sort of structure as to where icons are placed to help you stay on top of everything.
+	</p>
+	<p class = "subgeneral"><h3>(Optional) Step 4: Customise your Desktop<i class="angle down icon"></i></h3></p>
+	<p class = "subgeneral" id = "optional">There are plenty of ways to customise and personalise your desktop. One of the most obvious ways is selecting a background image / colour scheme. You can do this by left clicking and selecting <strong>Personalise</strong>. On Mac, choose <strong>Apple menu > System Preferences, Desktop & Screen Saver, Desktop</strong>.
+	<br><br>
+	There are plenty of widgets and apps out there to further customise your Desktop. We would recommend Windows' <strong>Sticky Notes</strong> app, which lets you add custom notes to your desktop. It's extremely useful for short-term reminders and agendas.
+	<br><br><br>
+</div>
+
+</main>
+
+</div>
+
+<footer class = "ui footer"> Website created by Rebecca Troy & Rachel Ryan
+</footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script  src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+  <script src ="js/javascript.js"></script>
+
+  <script>
+  	$(document).ready(function() {
+
+  	$("#optional").hide();
+  });
+
+  	$("i").on("click", function(){
+			if ($('i').hasClass('angle down icon')) {
+    			$("#optional").fadeIn(500);
+    			$("i").attr('class', 'angle up icon');
+    		}
+    		else {
+    			$("#optional").hide();
+    			$("i").attr('class', 'angle down icon');
+    		}
+    });
+</script>
+
+</body>
+</html>
